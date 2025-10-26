@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 // Component for the feature cards (the three integrated boxes)
 const FeatureCard = ({ icon, title, description }) => (
@@ -19,6 +20,7 @@ const FeatureCard = ({ icon, title, description }) => (
 );
 
 const Dashboard = () => {
+    // const navigate = useNavigate();
     return (
         <div className="min-h-screen bg-gray-50">
             
